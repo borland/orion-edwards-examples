@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbedIronRuby", "EmbedIronRuby.csproj", "{82FB1018-9B25-4A6F-A74B-5BBC62BC5C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmbeddedRubyConsole", "..\EmbeddedRubyConsole\EmbeddedRubyConsole.csproj", "{F6881E7D-8090-4B9E-A52B-643C98D27947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82FB1018-9B25-4A6F-A74B-5BBC62BC5C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FB1018-9B25-4A6F-A74B-5BBC62BC5C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FB1018-9B25-4A6F-A74B-5BBC62BC5C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FB1018-9B25-4A6F-A74B-5BBC62BC5C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6881E7D-8090-4B9E-A52B-643C98D27947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6881E7D-8090-4B9E-A52B-643C98D27947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6881E7D-8090-4B9E-A52B-643C98D27947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6881E7D-8090-4B9E-A52B-643C98D27947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
