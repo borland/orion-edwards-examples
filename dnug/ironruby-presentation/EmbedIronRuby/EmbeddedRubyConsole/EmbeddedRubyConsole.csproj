@@ -35,23 +35,19 @@
   <ItemGroup>
     <Reference Include="IronRuby, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ironruby\build\debug\IronRuby.dll</HintPath>
+      <HintPath>..\..\..\..\..\ironruby\build\debug\IronRuby.dll</HintPath>
     </Reference>
     <Reference Include="IronRuby.Libraries, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ironruby\build\debug\IronRuby.Libraries.dll</HintPath>
-    </Reference>
-    <Reference Include="IronRuby.Libraries.Yaml, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ironruby\build\debug\IronRuby.Libraries.Yaml.dll</HintPath>
+      <HintPath>..\..\..\..\..\ironruby\build\debug\IronRuby.Libraries.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Scripting, Version=1.0.0.5000, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ironruby\build\debug\Microsoft.Scripting.dll</HintPath>
+      <HintPath>..\..\..\..\..\ironruby\build\debug\Microsoft.Scripting.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Scripting.Core, Version=1.0.0.5000, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\ironruby\build\debug\Microsoft.Scripting.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\ironruby\build\debug\Microsoft.Scripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
