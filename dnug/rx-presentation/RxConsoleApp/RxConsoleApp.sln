@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxConsoleApp", "RxConsoleApp.csproj", "{6E288638-E66B-42DE-A058-C08AC219BF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxWpfApp", "..\RxWpfApp\RxWpfApp.csproj", "{F025ACD5-F982-41BE-BC8F-83C8A1B985A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServer", "..\WcfServer\WcfServer.csproj", "{F90944E9-F3CD-4D03-BEFA-C98C37E5F1BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfClient", "..\WcfClient\WcfClient.csproj", "{DBA5D668-C0E6-42F1-98F8-EE83F2714471}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F90944E9-F3CD-4D03-BEFA-C98C37E5F1BD} = {F90944E9-F3CD-4D03-BEFA-C98C37E5F1BD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E288638-E66B-42DE-A058-C08AC219BF3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E288638-E66B-42DE-A058-C08AC219BF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E288638-E66B-42DE-A058-C08AC219BF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E288638-E66B-42DE-A058-C08AC219BF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F025ACD5-F982-41BE-BC8F-83C8A1B985A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F025ACD5-F982-41BE-BC8F-83C8A1B985A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F025ACD5-F982-41BE-BC8F-83C8A1B985A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F025ACD5-F982-41BE-BC8F-83C8A1B985A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F90944E9-F3CD-4D03-BEFA-C98C37E5F1BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F90944E9-F3CD-4D03-BEFA-C98C37E5F1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F90944E9-F3CD-4D03-BEFA-C98C37E5F1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F90944E9-F3CD-4D03-BEFA-C98C37E5F1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBA5D668-C0E6-42F1-98F8-EE83F2714471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBA5D668-C0E6-42F1-98F8-EE83F2714471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBA5D668-C0E6-42F1-98F8-EE83F2714471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBA5D668-C0E6-42F1-98F8-EE83F2714471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+﻿<Window x:Class="WcfClient.DragDropWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="DragDropWindow" Height="300" Width="300">
+    <Canvas>
+        <Rectangle x:Name="Box" Stroke="Red" Fill="Green" Canvas.Left="20" Canvas.Top="20" Width="50" Height="50" />
+    </Canvas>
+</Window>
